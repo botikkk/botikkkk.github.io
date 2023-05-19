@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+  background-color:#d5c6ba ;
+}
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#c7b8ab;
+  }
+  
+  .logo {
+    padding-left: 7%;
+    margin-right: 7%;
+  }
+  
+  .menu {
+    flex-grow: 1;
+  }
+  
+  .menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 2px 50px 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    list-style: none;
+  }
+  
+  .menu li {
+    margin-right: 400px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu a,
+  .menu .active {
+    display: block;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    letter-spacing: .27em;
+  }
+  
+  .menu a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .menu .active {
+    color: #fff;
+    background-color: #ff3d00;
+    border-radius: 8px;
+  }
+
+  .text{
+    color: #6d5e53;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 18px;
+      text-align: center;
+      line-height: 140px;
+      margin-left: 20px;
+      font-family: 'Bruno Ace', cursive;
+      font-family: 'Press Start 2P', cursive;
+      font-family: 'Titan One', cursive;
+      position: relative;
+  }
+
+  .tablica{
+   position: relative;
+   left: 520px;
+   top: 20px;
+   font-size: 20px;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#bcb2aa;
+    min-height: 70px;
+    width: 100%;
+    margin-top: auto;
+  }
+  footer .footer_text{
+    color:#413028;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
